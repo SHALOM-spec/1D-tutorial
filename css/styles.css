@@ -21,6 +21,7 @@ Off-white     #f6f6f6
         background: var(--color-light);
         color: var(--color-dark);
 }
+a {color: var(--color-dark);}
 
 
 /* HOME

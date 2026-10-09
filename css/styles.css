@@ -10,7 +10,14 @@ Off-white     #f6f6f6
 
 /* GLOBAL STYLES 
 ------------------------------------*/
-body {
+:root {
+    --color-primary: #3c8453;
+    --color-secondary: #bcaa96;
+    --color-dark: #222222;
+    --color-gray: #d3d4d6;
+    --color-light: #f6f6f6;
+}
+    body {
     background: #f6f6f6; 
 }
 

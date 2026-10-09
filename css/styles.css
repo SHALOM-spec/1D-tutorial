@@ -18,7 +18,8 @@ Off-white     #f6f6f6
     --color-light: #f6f6f6;
 }
     body {
-    background: #f6f6f6; 
+        background: var(--color-light);
+        color: var(--color-dark);
 }
 
 

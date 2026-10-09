@@ -28,6 +28,10 @@ a {
     background: var(--color-dark);   
     color: var(--color-light);       
 }
+.bg-light {                         
+    background: var(--color-light);  
+    color: var(--color-dark);
+}
 
 /* HOME
 ------------------------------------*/

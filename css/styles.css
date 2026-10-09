@@ -32,6 +32,15 @@ a {
     background: var(--color-light);  
     color: var(--color-dark);
 }
+.bg-primary {                         
+    background: var(--color-primary); 
+    color: var(--color-light);       
+}
+
+.bg-dark a,                          
+.bg-primary a {                       
+    color: var(--color-light);
+}
 
 /* HOME
 ------------------------------------*/

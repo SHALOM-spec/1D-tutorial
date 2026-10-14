@@ -58,6 +58,11 @@ a {
 .bg-primary a {                       
     color: var(--color-light);
 }
+.list-reset {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* HOME
 ------------------------------------*/

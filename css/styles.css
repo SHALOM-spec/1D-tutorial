@@ -77,6 +77,11 @@ h4 {
 
 /* HOME
 ------------------------------------*/
+.home header {
+    height: 80%;
+    background-position: top right;
+    background-size: cover;
+}
 
 
 /* RESUME

@@ -63,6 +63,11 @@ a {
     margin: 0;
     padding: 0;
 }
+.content-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
 
 /* HOME
 ------------------------------------*/

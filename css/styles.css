@@ -112,7 +112,15 @@ h4 {
     max-width: 100%;
     height: auto;
 }
+.project-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
 
+.project-item img {
+  width: 100%;
+}
 /* Work Experience
 ------------------------------------*/
 

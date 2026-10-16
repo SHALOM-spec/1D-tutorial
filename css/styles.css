@@ -98,11 +98,13 @@ h4 {
 ------------------------------------*/
 .resume.content-wrap {
   max-width: 1000px;
+  margin-bottom: 30px;
 }
 
 .resume-container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 300px 1fr;
+  gap: 30px;
 }
 
 /* Profile
@@ -112,6 +114,7 @@ h4 {
 /* Projects
 ------------------------------------*/
 .project-item {
+    display: grid;
     border: 1px solid var(--color-primary);
     padding: 20px;
     margin-bottom: 10px;
@@ -126,9 +129,6 @@ h4 {
   column-gap: 20px;
 }
 
-.project-item img {
-  width: 100%;
-}
 /* Work Experience
 ------------------------------------*/
 .work-experience {

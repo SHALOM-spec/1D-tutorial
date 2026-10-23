@@ -93,11 +93,11 @@ h4 {
   padding: 20px;
 }
 @media screen and (max-width: 650px) {
-  .content-wrapper {
+  .home .content-wrap {
     padding: 10px;
   }
 
-  .content-bg {
+  .home .bg-primary .content-wrap {
     padding: 20px;
   }
 }
@@ -145,11 +145,7 @@ h4 {
     max-width: 100%;
     height: auto;
 }
-.project-item {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 20px;
-}
+
 @media screen and (min-width: 860px) {
   /* Styles for screens 860px and wider */
 }
@@ -168,12 +164,24 @@ h4 {
     margin-right: 20px;
   }
 }
+/* Large screens */
+@media screen and (min-width: 860px) {
+  .project-item {
+    display: flow-root;
+  }
 
-/* Medium screens: 650px–859px */
+  .project-item img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+  }
+}
+
+/* Medium screens: two-column layout */
 @media screen and (min-width: 650px) and (max-width: 859px) {
   .project-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 20px;
   }
 
@@ -182,7 +190,7 @@ h4 {
   }
 }
 
-/* Small screens: 500px and narrower */
+/* Small screens */
 @media screen and (max-width: 500px) {
   .project-item img {
     width: 100%;
@@ -194,6 +202,7 @@ h4 {
     position: absolute;
   }
 }
+
 
 
 /* Work Experience
